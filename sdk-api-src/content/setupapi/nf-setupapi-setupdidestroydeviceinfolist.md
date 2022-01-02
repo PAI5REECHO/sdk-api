@@ -64,7 +64,7 @@ A handle to the <a href="/windows-hardware/drivers/install/device-information-se
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+The function returns <b>FALSE</b> if it is successful. Otherwise, it returns <b>TRUE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
